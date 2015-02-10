@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: 1e957457335d54d80bf0d0df5d9cbc56
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WOTB_hipster00_drink_00
+    21300002: WOTB_hipster00_drink_01
+    21300004: WOTB_hipster00_drink_02
+    21300006: WOTB_hipster00_drink_03
+    21300008: WOTB_hipster00_drink_04
+    21300010: WOTB_hipster00_drink_05
+    21300012: WOTB_hipster00_drink_06
+    21300014: WOTB_hipster00_drink_07
+    21300016: WOTB_hipster00_drink_08
+    21300018: WOTB_hipster00_drink_09
+    21300020: WOTB_hipster00_drink_10
+    21300022: WOTB_hipster00_drink_11
+    21300024: WOTB_hipster00_walk_00
+    21300026: WOTB_hipster00_walk_01
+    21300028: WOTB_hipster00_walk_02
+    21300030: WOTB_hipster00_walk_03
+    21300032: WOTB_hipster00_walk_04
+    21300034: WOTB_hipster00_walk_05
+    21300036: WOTB_hipster00_walk_06
+    21300038: WOTB_hipster00_walk_07
+    21300040: WOTB_hipster00_walk_08
+    21300042: WOTB_hipster00_walk_09
+    21300044: WOTB_hipster00_walk_10
+    21300046: WOTB_hipster00_walk_11
+    21300048: WOTB_wiz00_idle_00
+    21300050: WOTB_wiz00_idle_01
+    21300052: WOTB_wiz00_idle_02
+    21300054: WOTB_wiz00_idle_03
+    21300056: WOTB_wiz00_idle_04
+    21300058: WOTB_wiz00_idle_05
+    21300060: WOTB_wiz00_idle_06
+    21300062: WOTB_wiz00_idle_07
+    21300064: WOTB_wiz00_idle_08
+    21300066: WOTB_wiz00_idle_09
+    21300068: WOTB_wiz00_idle_10
+    21300070: WOTB_wiz00_idle_11
+    21300072: WOTB_wiz00_knockdown_00
+    21300074: WOTB_wiz00_knockdown_01
+    21300076: WOTB_wiz00_knockdown_02
+    21300078: WOTB_wiz00_knockdown_03
+    21300080: WOTB_wiz00_knockdown_04
+    21300082: WOTB_wiz00_knockdown_05
+    21300084: WOTB_wiz00_knockdown_06
+    21300086: WOTB_wiz00_knockdown_07
+    21300088: WOTB_wiz00_knockdown_08
+    21300090: WOTB_wiz00_knockdown_09
+    21300092: WOTB_wiz00_knockdown_10
+    21300094: WOTB_wiz00_knockdown_11
+    21300096: WOTB_wiz00_walk_00
+    21300098: WOTB_wiz00_walk_01
+    21300100: WOTB_wiz00_walk_02
+    21300102: WOTB_wiz00_walk_03
+    21300104: WOTB_wiz00_walk_04
+    21300106: WOTB_wiz00_walk_05
+    21300108: WOTB_wiz00_walk_06
+    21300110: WOTB_wiz00_walk_07
+    21300112: WOTB_wiz00_walk_08
+    21300114: WOTB_wiz00_walk_09
+    21300116: WOTB_wiz00_walk_10
+    21300118: WOTB_wiz00_walk_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WOTB_hipster00_drink_00
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 871
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_01
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 871
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_02
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 871
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_03
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 871
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_04
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 154
+        width: 154
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_05
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 868
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_06
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_07
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 621
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_08
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 465
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_09
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 309
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 713
+        width: 154
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_drink_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 871
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_00
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 778
+        width: 93
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_01
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 274
+        width: 93
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 523
+        width: 93
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_03
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 774
+        width: 93
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 86
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_05
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 533
+        width: 86
+        height: 243
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_06
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 26
+        width: 86
+        height: 246
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_07
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 525
+        width: 86
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_08
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 773
+        width: 86
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_09
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 86
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 25
+        width: 86
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_hipster00_walk_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 290
+        width: 88
+        height: 241
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_00
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_01
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_02
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_03
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_04
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_05
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_06
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_07
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 738
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_08
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_09
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_10
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_idle_11
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 881
+        width: 114
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_00
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 44
+        width: 124
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_01
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3
+        width: 127
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_02
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 895
+        width: 129
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_03
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 4
+        width: 123
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_04
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 468
+        width: 123
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_05
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 597
+        width: 127
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_06
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 627
+        width: 126
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_07
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 22
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_08
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 135
+        width: 124
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_09
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 249
+        width: 124
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_10
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 365
+        width: 124
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_knockdown_11
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 204
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_00
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 321
+        width: 123
+        height: 143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_01
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 483
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_02
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 322
+        width: 124
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_03
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 738
+        width: 127
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_04
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 881
+        width: 128
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_05
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 483
+        width: 125
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_06
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 8
+        width: 123
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_07
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 178
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_08
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 323
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_09
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 609
+        width: 127
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 752
+        width: 128
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WOTB_wiz00_walk_11
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 466
+        width: 125
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
