@@ -307,8 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7caf17db2a59423589ac0749712e1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hipsterUI: {fileID: 0}
-  hipsterInfo: {fileID: 0}
+  hipsterUI: {fileID: 116970}
+  hipsterInfo: {fileID: 116974}
   uiDuration: 3
 --- !u!114 &11416958
 MonoBehaviour:
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11416956}
         m_MethodName: DeselectHipster
         m_Mode: 1
         m_Arguments:
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11416956}
         m_MethodName: SelectHipster
         m_Mode: 1
         m_Arguments:
