@@ -1,27 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WizardSpriteAnimation : MonoBehaviour {
+public class HipsterSpriteAnimation : MonoBehaviour {
 
-	public GameObject wizard;
+	public GameObject hipster;
 	Animator anim;
 	NavMeshAgent agent;
 	int xVelocityHash = Animator.StringToHash("xVelocity");
-	int dizzyHash = Animator.StringToHash("dizzy");
+	int drinkingHash = Animator.StringToHash("drinking");
 	int idleHash = Animator.StringToHash("idle");
-	public string dizzyTag = "Dizzy";
-
+//	bool drinking;
+	
 	void Start () {
 		anim = GetComponent<Animator>();
-		agent = wizard.GetComponent<NavMeshAgent>();
+		agent = hipster.GetComponent<NavMeshAgent>();
+//		drinking = hipster.GetComponent<HipsterNav>().drinking;
 	}
 	
 	void Update () {
-		if (wizard.CompareTag(dizzyTag)){
-			anim.SetBool(dizzyHash, true);
-		} else {
-			anim.SetBool(dizzyHash, false);
-		}
+		anim.SetBool(drinkingHash,hipster.GetComponent<HipsterNav>().drinking);
 		float xVelocity = agent.velocity.x;
 		if(xVelocity == 0f){
 			anim.SetBool(idleHash, true);

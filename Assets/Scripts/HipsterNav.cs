@@ -21,8 +21,9 @@ public class HipsterNav : MonoBehaviour {
 	private Vector3 destination;
 	private Material mat;
 	[SerializeField] float drinkTimer = 0f;
-	private bool drinking = false;
+	public bool drinking = false;
 	private bool inSpawn = true;
+	private bool goingHome = false;
 
 	private ItemDatabase database;
 	[SerializeField] Item drinkType;
@@ -76,7 +77,7 @@ public class HipsterNav : MonoBehaviour {
 	void OnTriggerStay (Collider other) {
 
 		// destroy object when reaching spawn point
-		if (other.CompareTag(spawnTag) && drinking == true) {
+		if (other.CompareTag(spawnTag) && goingHome == true) {
 			CameraFollow.selected = CameraFollow.lastWizardSelected;
 			Destroy(gameObject);
 		}
@@ -129,6 +130,8 @@ public class HipsterNav : MonoBehaviour {
 		// set destination to spawn home
 		destination = spawn.transform.position;
 		agent.SetDestination(destination);
+		drinking = false;
+		goingHome = true;
 		// set color to default
 		mat.color = defaultColor;
 	}
