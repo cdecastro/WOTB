@@ -2627,7 +2627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b03c704d6c3f4b01b103a3792d00c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingWizard: {fileID: 1840426756}
   playerTag: Player
   waypoint: {fileID: 1279416611}
   cameraSmoothing: .899999976
@@ -5450,6 +5449,47 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1229869356}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1248498236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1248498238}
+  - 114: {fileID: 1248498237}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1248498237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1248498236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f949ef58b5c98405da7af80e7db4ddcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingWizard: {fileID: 1840426756}
+  parties: {fileID: 1565016208}
+--- !u!4 &1248498238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1248498236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
 --- !u!1 &1272113362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6375,8 +6415,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 628031680}
-        m_MethodName: ChangeCameraTilt
+      - m_Target: {fileID: 1248498237}
+        m_MethodName: StartPark
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7694,7 +7734,7 @@ GameObject:
   - 4: {fileID: 1565016209}
   m_Layer: 2
   m_Name: Parties
-  m_TagString: Untagged
+  m_TagString: Party
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

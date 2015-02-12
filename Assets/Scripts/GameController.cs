@@ -3,39 +3,30 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
-	Vector3 cameraStartingPosition;
-	GameObject startingWizard;
+	public GameObject startingWizard;
+	public static GameObject selectedWizard;
+	public GameObject parties;
+	Vector3 origin = new Vector3(0f,0f,0f);
 	Vector3 wizardStartingPosition = new Vector3(39.5f,0f,-39.6f);
-	string partyTag = "Party";
 	string hipsterTag = "Hipster";
 	string itemTag = "Can";
 
 	void Start() {
-		SetCameraPosition();
+		selectedWizard = startingWizard;
+		Debug.Log(selectedWizard);
+		SetWizardPosition(origin);
 		ClearPark();
 	}
 
-	//camera setup
-	void SetCameraPosition() {
-		//set camerapostion
-	}
-
-	//inventory management
-
 	//wizard setup
-	void SetWizardPosition() {
-
+	void SetWizardPosition(Vector3 wizardPosition) {
+		selectedWizard.transform.position = wizardPosition;
 	}
-
 
 	//park setup
-	void ClearPark() {
+	public void ClearPark() {
 		//find & disable all parties
-		GameObject[] parties;
-		parties = GameObject.FindGameObjectsWithTag(partyTag);
-		foreach (GameObject party in parties) {
-			party.SetActive(false);
-		}
+		parties.SetActive(false);
 		//find & destroy all hipsters
 		GameObject[] hipsters;
 		hipsters = GameObject.FindGameObjectsWithTag(hipsterTag);
@@ -50,12 +41,20 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
-	void StartPark() {
-		SetWizardPosition();
+	public void StartPark() {
+		SetWizardPosition(wizardStartingPosition);
+		parties.SetActive(true);
+		Camera.main.GetComponent<CameraFollow>().TiltDown(true);
 	}
 
 	//pause park
-	void PausePark() {
-
+	public void PausePark(bool pause) {
+		if (pause) {
+			Time.timeScale = 0f;
+		} else {
+			Time.timeScale = 1f;
+		}
 	}
+
+	//inventory management
 }

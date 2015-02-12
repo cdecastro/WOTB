@@ -5,8 +5,7 @@ public class CameraFollow : MonoBehaviour {
 
 	Animator anim;
 	int tiltHash = Animator.StringToHash("TiltDown");
-
-	public GameObject startingWizard;
+	
 	public string playerTag = "Player";
 	Vector3 startingCameraPosition;
 	public static GameObject selected;
@@ -20,8 +19,10 @@ public class CameraFollow : MonoBehaviour {
 	public float zoomInSmoothing = 1.5f;
 
 	void Start () {
-		selected = startingWizard;
-		lastWizardSelected = startingWizard;
+		selected = GameController.selectedWizard;
+		Debug.Log(selected);
+		lastWizardSelected = GameController.selectedWizard;
+		Debug.Log(lastWizardSelected);
 		startingCameraPosition = transform.position;
 		anim = GetComponent<Animator>();
 	}
