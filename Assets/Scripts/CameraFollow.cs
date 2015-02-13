@@ -4,8 +4,9 @@ using System.Collections;
 public class CameraFollow : MonoBehaviour {
 
 	Animator anim;
-	int tiltHash = Animator.StringToHash("TiltDown");
-	
+	int tiltDownHash = Animator.StringToHash("TiltDown");
+	int titleTiltHash = Animator.StringToHash("TitleTiltDown");
+
 	public string playerTag = "Player";
 	Vector3 startingCameraPosition;
 	public static GameObject selected;
@@ -70,17 +71,16 @@ public class CameraFollow : MonoBehaviour {
 		}
 	}
 
-	public void TiltDown (bool tilt) {
-		anim.SetBool(tiltHash, tilt);
+	public void TitleTiltDown () {
+		anim.SetTrigger(titleTiltHash);
 	}
 
+	public void TiltDown () {
+		anim.SetTrigger(tiltDownHash);
+	}
+	
 	public void ChangeOrthographic () { //remove from final build
 		bool isCamOrthographic = Camera.main.orthographic;
 		Camera.main.orthographic = !isCamOrthographic;
-	}
-
-	public void ChangeCameraTilt () {
-		bool tilt = anim.GetBool(tiltHash);
-		anim.SetBool(tiltHash, !tilt);
 	}
 }

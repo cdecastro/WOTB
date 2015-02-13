@@ -9,7 +9,19 @@ AnimatorController:
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: TiltDown
-    m_Type: 4
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: TitleTiltDown
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: TiltUp
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -48,13 +60,53 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110253124}
   m_DstState: {fileID: 110298612}
-  m_TransitionDuration: .998995125
-  m_TransitionOffset: .0015549711
+  m_TransitionDuration: 0
+  m_TransitionOffset: .00861770101
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
+    m_ConditionEvent: TiltDown
+    m_EventTreshold: 0
+    m_ExitTime: 0
+  m_Atomic: 0
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &110146788
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110225262}
+  m_DstState: {fileID: 110253124}
+  m_TransitionDuration: .125
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 1
     m_ConditionEvent: TiltDown
     m_EventTreshold: 0
     m_ExitTime: .875
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &110166678
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110294338}
+  m_DstState: {fileID: 110225262}
+  m_TransitionDuration: .100000001
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: TitleTiltDown
+    m_EventTreshold: 0
+    m_ExitTime: .899999976
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -68,14 +120,14 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110298612}
   m_DstState: {fileID: 110253124}
-  m_TransitionDuration: 1.00251639
-  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_TransitionOffset: .00430894224
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: TiltDown
     m_EventTreshold: 0
-    m_ExitTime: .875
-  m_Atomic: 1
+    m_ExitTime: 0
+  m_Atomic: 0
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
@@ -94,6 +146,21 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
+--- !u!1102 &110225262
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TitleTiltDown
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: ec91f0cd1aaf54c3f99b7968c596804c, type: 2}
+  m_ParentStateMachine: {fileID: 110753124}
+  m_Position: {x: 276, y: -72, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1102 &110253124
 State:
   m_ObjectHideFlags: 3
@@ -105,7 +172,22 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: dd1d7dd57417d4c3a81d0765a8250702, type: 2}
   m_ParentStateMachine: {fileID: 110753124}
-  m_Position: {x: 276, y: 144, z: 0}
+  m_Position: {x: 264, y: 12, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110294338
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Default
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 0}
+  m_ParentStateMachine: {fileID: 110753124}
+  m_Position: {x: 276, y: -156, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -120,7 +202,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: bc9e97dbb05694047b889cbc025f6fd6, type: 2}
   m_ParentStateMachine: {fileID: 110753124}
-  m_Position: {x: 528, y: -12, z: 0}
+  m_Position: {x: 264, y: 108, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -131,13 +213,23 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110224182}
+  m_DefaultState: {fileID: 110294338}
   m_States:
   - {fileID: 110253124}
   - {fileID: 110298612}
+  - {fileID: 110225262}
+  - {fileID: 110294338}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
+    data:
+      first: {fileID: 110294338}
+      second:
+      - {fileID: 110166678}
+    data:
+      first: {fileID: 110225262}
+      second:
+      - {fileID: 110146788}
     data:
       first: {fileID: 0}
       second: []

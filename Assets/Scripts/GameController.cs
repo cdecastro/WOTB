@@ -18,6 +18,10 @@ public class GameController : MonoBehaviour {
 		ClearPark();
 	}
 
+	public void StartGame() {
+		Camera.main.GetComponent<CameraFollow>().TitleTiltDown();
+	}
+
 	//wizard setup
 	void SetWizardPosition(Vector3 wizardPosition) {
 		selectedWizard.transform.position = wizardPosition;
@@ -44,7 +48,7 @@ public class GameController : MonoBehaviour {
 	public void StartPark() {
 		SetWizardPosition(wizardStartingPosition);
 		parties.SetActive(true);
-		Camera.main.GetComponent<CameraFollow>().TiltDown(true);
+		Camera.main.GetComponent<CameraFollow>().TiltDown();
 	}
 
 	//pause park
