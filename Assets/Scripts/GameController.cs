@@ -10,10 +10,13 @@ public class GameController : MonoBehaviour {
 	Vector3 wizardStartingPosition = new Vector3(39.5f,0f,-39.6f);
 	string hipsterTag = "Hipster";
 	string itemTag = "Can";
+	bool parkActive = false;
+	public GameObject menuButton;
+	public GameObject waypoint;
 
 	void Start() {
+		menuButton.SetActive(false);
 		selectedWizard = startingWizard;
-		Debug.Log(selectedWizard);
 		SetWizardPosition(origin);
 		ClearPark();
 	}
@@ -43,12 +46,28 @@ public class GameController : MonoBehaviour {
 		foreach (GameObject item in items) {
 			Destroy(item);
 		}
+		//park is no longer active
+		parkActive = false;
 	}
 
 	public void StartPark() {
-		SetWizardPosition(wizardStartingPosition);
-		parties.SetActive(true);
+		menuButton.SetActive(true);
+		if (parkActive == false){
+			SetWizardPosition(wizardStartingPosition);
+			parties.SetActive(true);
+			Camera.main.GetComponent<CameraFollow>().TiltDown();
+			parkActive = true;
+		} else {
+			PausePark(false);
+			Camera.main.GetComponent<CameraFollow>().TiltDown();
+		}
+	}
+
+	public void MenuButton() {
+		PausePark(true);
 		Camera.main.GetComponent<CameraFollow>().TiltDown();
+		menuButton.SetActive(false);
+		waypoint.SetActive(false);
 	}
 
 	//pause park

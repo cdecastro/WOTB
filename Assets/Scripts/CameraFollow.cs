@@ -21,9 +21,7 @@ public class CameraFollow : MonoBehaviour {
 
 	void Start () {
 		selected = GameController.selectedWizard;
-		Debug.Log(selected);
 		lastWizardSelected = GameController.selectedWizard;
-		Debug.Log(lastWizardSelected);
 		startingCameraPosition = transform.position;
 		anim = GetComponent<Animator>();
 	}
