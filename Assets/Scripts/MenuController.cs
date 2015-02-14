@@ -15,7 +15,7 @@ public class MenuController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () {
 		transform.position = startingMenuPosition + (Camera.main.transform.position - startingCameraPosition);
 	}
 }

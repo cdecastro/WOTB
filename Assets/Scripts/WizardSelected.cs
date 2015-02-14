@@ -40,6 +40,7 @@ public class WizardSelected : MonoBehaviour {
 		waypoint.SetActive(false);
 		tapToSelect.SetActive(false);
 		wizardUI.SetActive(true);
+		wizardInfo.SetActive(false);
 	}
 
 	public void TurnOnWizardInfo () {
