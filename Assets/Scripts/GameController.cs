@@ -10,17 +10,37 @@ public class GameController : MonoBehaviour {
 	Vector3 wizardStartingPosition = new Vector3(39.5f,0f,-39.6f);
 	string hipsterTag = "Hipster";
 	string itemTag = "Can";
+	string actorUITag = "ActorUI";
 	bool parkActive = false;
 	public GameObject menuButton;
 	public GameObject waypoint;
+	public bool pausePark;
+	float minFOV;
 
 	void Start() {
+		//turn off menu button
 		menuButton.SetActive(false);
+		//the selected wizard is the starting wizard
 		selectedWizard = startingWizard;
+		//place wizard to origin position
 		SetWizardPosition(origin);
+		//clear the park
 		ClearPark();
+		//setup the camera fov check, pausing park will only happen once the camera has reset
+		minFOV = Camera.main.GetComponent<CameraFollow>().minFov;
 	}
 
+	void Update() {
+		// pause park once the camera has finished zooming in
+		float cameraFOV = Camera.main.fieldOfView;
+		if (pausePark && cameraFOV == minFOV) {
+			Time.timeScale = 0f;
+		} else {
+			Time.timeScale = 1f;
+		}
+	}
+
+	//start game from title screen
 	public void StartGame() {
 		Camera.main.GetComponent<CameraFollow>().TitleTiltDown();
 	}
@@ -31,6 +51,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	//park setup
+
 	public void ClearPark() {
 		//find & disable all parties
 		parties.SetActive(false);
@@ -51,31 +72,34 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void StartPark() {
+		//enable menu button
 		menuButton.SetActive(true);
+		// if the park hasn't been started, startup park
 		if (parkActive == false){
 			SetWizardPosition(wizardStartingPosition);
 			parties.SetActive(true);
 			Camera.main.GetComponent<CameraFollow>().TiltDown();
 			parkActive = true;
-		} else {
-			PausePark(false);
+		} else { //if the park has already begun just pause the park
+			pausePark = false;
 			Camera.main.GetComponent<CameraFollow>().TiltDown();
 		}
 	}
 
 	public void MenuButton() {
-		PausePark(true);
+		//pause park
+		pausePark = true;
+		//tilt camera
 		Camera.main.GetComponent<CameraFollow>().TiltDown();
+		//turn on menu button
 		menuButton.SetActive(false);
+		//kill waypoint so camera resets
 		waypoint.SetActive(false);
-	}
-
-	//pause park
-	public void PausePark(bool pause) {
-		if (pause) {
-			Time.timeScale = 0f;
-		} else {
-			Time.timeScale = 1f;
+		//find all actor UIs and turn them off
+		GameObject[] actorUIs;
+		actorUIs = GameObject.FindGameObjectsWithTag(actorUITag);
+		foreach (GameObject actorUI in actorUIs) {
+			actorUI.SetActive(false);
 		}
 	}
 

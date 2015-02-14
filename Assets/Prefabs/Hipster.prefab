@@ -121,7 +121,7 @@ GameObject:
   - 224: {fileID: 22416970}
   m_Layer: 0
   m_Name: HipsterUI
-  m_TagString: Untagged
+  m_TagString: ActorUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ GameObject:
   - 224: {fileID: 22416974}
   m_Layer: 0
   m_Name: HipsterInfo
-  m_TagString: Untagged
+  m_TagString: ActorUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
