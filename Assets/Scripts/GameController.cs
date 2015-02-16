@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour {
 	string hipsterTag = "Hipster";
 	string itemTag = "Can";
 	string actorUITag = "ActorUI";
+	string menuControllerTag = "MenuController";
 	bool parkActive = false;
 	public GameObject menuButton;
 	public GameObject waypoint;
@@ -83,6 +84,8 @@ public class GameController : MonoBehaviour {
 		} else { //if the park has already begun just pause the park
 			pausePark = false;
 			Camera.main.GetComponent<CameraFollow>().TiltDown();
+			//reset selected to last wizard, avoid following hipster with no UI
+			CameraFollow.selected = CameraFollow.lastWizardSelected;
 		}
 	}
 

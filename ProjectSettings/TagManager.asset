@@ -13,6 +13,10 @@ TagManager:
   - Dizzy
   - Spawn
   - ActorUI
+  - MenuWindow
+  - StoreWindow
+  - HomeWindow
+  - MenuController
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

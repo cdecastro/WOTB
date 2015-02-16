@@ -76,7 +76,7 @@ public class CameraFollow : MonoBehaviour {
 	public void TiltDown () {
 		anim.SetTrigger(tiltDownHash);
 	}
-	
+
 	public void ChangeOrthographic () { //remove from final build
 		bool isCamOrthographic = Camera.main.orthographic;
 		Camera.main.orthographic = !isCamOrthographic;
