@@ -13,11 +13,11 @@ public class Inventory : MonoBehaviour {
 		database = GameObject.FindGameObjectWithTag("ItemDatabase").GetComponent<ItemDatabase>();
 
 		// test database
-//		AddItem(1);
-//		AddItem(2);
-//		AddItem(1);
-//		AddItem(2);
-//		AddItem(1);
+		AddItem(1);
+		AddItem(2);
+		AddItem(1);
+		AddItem(2);
+		AddItem(1);
 //		AddItem(2);
 //		AddItem(1);
 //		AddItem(2);
@@ -37,12 +37,12 @@ public class Inventory : MonoBehaviour {
 
 	}
 
-	void OnGUI () {
-		// on screen inventory list
-		for(int i = 0; i < inventory.Count; i++) {
-			GUI.Label(new Rect(10,20 + (i * 10), 200, 50), inventory[i].itemName);
-		}
-	}
+//	void OnGUI () { //debug list, turn off for final build
+//		// on screen inventory list
+//		for(int i = 0; i < inventory.Count; i++) {
+//			GUI.Label(new Rect(10,20 + (i * 10), 200, 50), inventory[i].itemName);
+//		}
+//	}
 
 	public void AddItem(int id) {
 		for (int i = 0; i < inventory.Count; i++) {
@@ -65,7 +65,7 @@ public class Inventory : MonoBehaviour {
 				tempList.Add (inventory[i]);
 			}
 		}
-		// add in empty list items to match current inventory
+		// add in empty list items to match current inventory count
 		for (int j = tempList.Count; j < inventory.Count; j++) {
 			tempList.Add (new Item());
 		}

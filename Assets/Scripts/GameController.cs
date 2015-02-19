@@ -11,7 +11,6 @@ public class GameController : MonoBehaviour {
 	string hipsterTag = "Hipster";
 	string itemTag = "Can";
 	string actorUITag = "ActorUI";
-	string menuControllerTag = "MenuController";
 	bool parkActive = false;
 	public GameObject menuButton;
 	public GameObject waypoint;
