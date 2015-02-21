@@ -13,11 +13,11 @@ public class Inventory : MonoBehaviour {
 		database = GameObject.FindGameObjectWithTag("ItemDatabase").GetComponent<ItemDatabase>();
 
 		// test database
-		AddItem(1);
-		AddItem(2);
-		AddItem(1);
-		AddItem(2);
-		AddItem(1);
+//		AddItem(1);
+//		AddItem(2);
+//		AddItem(1);
+//		AddItem(2);
+//		AddItem(1);
 //		AddItem(2);
 //		AddItem(1);
 //		AddItem(2);

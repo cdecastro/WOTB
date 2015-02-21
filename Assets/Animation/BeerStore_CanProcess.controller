@@ -26,38 +26,58 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &110108056
+--- !u!1101 &110161990
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110256904}
+  m_SrcState: {fileID: 110296928}
   m_DstState: {fileID: 110297052}
-  m_TransitionDuration: .100000001
+  m_TransitionDuration: .00227269554
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: ProcessCan
     m_EventTreshold: 0
-    m_ExitTime: .899999976
+    m_ExitTime: .75
+  m_Atomic: 0
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &110181300
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110297052}
+  m_DstState: {fileID: 110296928}
+  m_TransitionDuration: .00454545068
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 5
+    m_ConditionEvent: 
+    m_EventTreshold: 0
+    m_ExitTime: 0
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
---- !u!1102 &110256904
+--- !u!1102 &110296928
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Defalut
+  m_Name: CanProcessDisable
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 0}
+  - {fileID: 7400000, guid: a81d8acd683694a449c51ffc80be23c3, type: 2}
   m_ParentStateMachine: {fileID: 110734498}
-  m_Position: {x: 288, y: -60, z: 0}
+  m_Position: {x: 300, y: -84, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -83,20 +103,21 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110256904}
+  m_DefaultState: {fileID: 110296928}
   m_States:
   - {fileID: 110297052}
-  - {fileID: 110256904}
+  - {fileID: 110296928}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110256904}
+      first: {fileID: 110296928}
       second:
-      - {fileID: 110108056}
+      - {fileID: 110161990}
     data:
       first: {fileID: 110297052}
-      second: []
+      second:
+      - {fileID: 110181300}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

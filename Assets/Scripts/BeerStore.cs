@@ -23,24 +23,30 @@ public class BeerStore : MonoBehaviour {
 	}
 
 	void Update () {
-		text.text = "TOTAL:" + total*0.01f;
+		string formattedTotal = (total*0.01).ToString("0.00");
+		text.text = "TOTAL:" + formattedTotal;
 	}
 	
 	void OnEnable () {
 		total = 0;
 		wizard = CameraFollow.lastWizardSelected;
+//		canImage.GetComponent<Image>().enabled = false;
 	}
 
-	public void SellCans () {
+	public void TriggerSellCans () {
+		StartCoroutine(SellCans());
+	}
+	IEnumerator SellCans () {
 		List<Item> wizardInventory = wizard.GetComponent<Inventory>().inventory;
 		for (int i = 0; i < wizardInventory.Count; i++) {
 			if (wizardInventory[i].itemType == Item.ItemType.Can) {
 				can = wizardInventory[i];
-				wizardInventory[i] = null;
+				wizardInventory[i] = new Item();
 				total += can.itemPrice;
 				wizard.GetComponent<WizardSettings>().moneyTotal += can.itemPrice;
 				wizard.GetComponent<WizardSettings>().inventoryTotal--;
 				CanProcess(can);
+				yield break;
 			}
 		}
 	}
@@ -48,5 +54,6 @@ public class BeerStore : MonoBehaviour {
 	void CanProcess (Item can) {
 		canImage.GetComponent<Image>().sprite = can.itemIcon;
 		anim.SetTrigger(processCanHash);
+		wizard.GetComponent<Inventory>().CleanUpInventory();
 	}
 }
