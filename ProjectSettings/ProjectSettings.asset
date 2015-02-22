@@ -8,6 +8,7 @@ PlayerSettings:
   defaultScreenOrientation: 4
   targetDevice: 2
   targetGlesGraphics: -1
+  targetIOSGraphics: -1
   targetResolution: 4
   accelerometerFrequency: 60
   companyName: produce
@@ -25,10 +26,10 @@ PlayerSettings:
   m_MobileMTRendering: 0
   m_UseDX11: 1
   m_Stereoscopic3D: 0
-  iosShowActivityIndicatorOnLoading: 1
+  iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
   displayResolutionDialog: 1
-  allowedAutorotateToPortrait: 0
+  allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 0
   allowedAutorotateToLandscapeRight: 1
   allowedAutorotateToLandscapeLeft: 1
@@ -87,7 +88,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   iPhoneSdkVersion: 988
   iPhoneTargetOSVersion: 22
-  uIPrerenderedIcon: 0
+  uIPrerenderedIcon: 1
   uIRequiresPersistentWiFi: 0
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
@@ -102,6 +103,15 @@ PlayerSettings:
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
+  iOSLaunchScreenType: 0
+  iOSLaunchScreenPortrait: {fileID: 0}
+  iOSLaunchScreenLandscape: {fileID: 0}
+  iOSLaunchScreenBackgroundColor:
+    serializedVersion: 2
+    rgba: 0
+  iOSLaunchScreenFillPct: 100
+  iOSLaunchScreenSize: 100
+  iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   AndroidKeystoreName: 
@@ -258,7 +268,7 @@ PlayerSettings:
   intPropertyNames:
   - iOS::Architecture
   - iOS::ScriptingBackend
-  iOS::Architecture: 2
+  iOS::Architecture: 0
   iOS::ScriptingBackend: 0
   firstStreamedLevelWithResources: 0
   unityRebuildLibraryVersion: 9
