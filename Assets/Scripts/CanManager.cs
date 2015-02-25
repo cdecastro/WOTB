@@ -21,7 +21,7 @@ public class CanManager : MonoBehaviour {
 		int stars = CameraFollow.lastWizardSelected.GetComponent<WizardSettings>().starsTotal;
 		string player = CameraFollow.selected.gameObject.name;
 		string formattedMoney = (money*0.01).ToString("0.00");
-		text.text = cans+"/"+capacity+" $:"+formattedMoney+" "+player;
+		text.text = cans+"/"+capacity+" $"+formattedMoney+" "+player;
 	
 	}
 }
