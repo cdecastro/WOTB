@@ -82,7 +82,7 @@ public class PlayerNav : MonoBehaviour {
 		}
 
 		// pickup can
-		if(collision.gameObject.CompareTag(canTag)) {
+		if(collision.gameObject.CompareTag(canTag) && wizardSettings.inventoryTotal < WizardSettings.inventorySize) {
 			//add can to inventory
 			wizardSettings.inventoryTotal++;
 			Item canItem = collision.gameObject.GetComponent<CanSetting>().canItem;

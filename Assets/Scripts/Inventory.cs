@@ -33,8 +33,6 @@ public class Inventory : MonoBehaviour {
 //		inventory[7] = new Item();
 //		inventory[11] = new Item();
 
-
-
 	}
 
 //	void OnGUI () { //debug list, turn off for final build
