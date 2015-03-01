@@ -24,7 +24,7 @@ public class BeerStore : MonoBehaviour {
 
 	void Update () {
 		string formattedTotal = (total*0.01).ToString("0.00");
-		text.text = "TOTAL:" + formattedTotal;
+		text.text = "TOTAL $" + formattedTotal;
 	}
 	
 	void OnEnable () {
