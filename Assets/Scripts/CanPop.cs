@@ -8,7 +8,7 @@ public class CanPop : MonoBehaviour {
 	public Transform sourcePosition;
 
 	void Start () {
-		rigidbody.AddExplosionForce(explosiveForce, sourcePosition.position, explosiveRadius);
+		GetComponent<Rigidbody>().AddExplosionForce(explosiveForce, sourcePosition.position, explosiveRadius);
 	}
 
 }

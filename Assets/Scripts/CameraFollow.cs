@@ -51,15 +51,15 @@ public class CameraFollow : MonoBehaviour {
 			if(waypoint.gameObject.activeSelf == true) {
 				float dist = Vector3.Distance(selected.transform.position, waypoint.transform.position);
 				if(dist > zoomDistance) {
-					Camera.main.fieldOfView = Mathf.Clamp((camera.fieldOfView += Time.deltaTime*zoomOutSmoothing), minFov, maxFov);
+					Camera.main.fieldOfView = Mathf.Clamp((GetComponent<Camera>().fieldOfView += Time.deltaTime*zoomOutSmoothing), minFov, maxFov);
 				} else {
 					if(Camera.main.fieldOfView > minFov) {
-						Camera.main.fieldOfView = Mathf.Clamp((camera.fieldOfView -= Time.deltaTime*zoomInSmoothing), minFov, maxFov);
+						Camera.main.fieldOfView = Mathf.Clamp((GetComponent<Camera>().fieldOfView -= Time.deltaTime*zoomInSmoothing), minFov, maxFov);
 					}
 				}
 			} else {
 				if(Camera.main.fieldOfView > minFov) {
-					Camera.main.fieldOfView = Mathf.Clamp((camera.fieldOfView -= Time.deltaTime*zoomInSmoothing), minFov, maxFov);
+					Camera.main.fieldOfView = Mathf.Clamp((GetComponent<Camera>().fieldOfView -= Time.deltaTime*zoomInSmoothing), minFov, maxFov);
 				}
 			}
 		}

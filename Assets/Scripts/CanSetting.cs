@@ -8,6 +8,6 @@ public class CanSetting : MonoBehaviour {
 
 	void Start () {
 		Texture canTexture = Resources.Load<Texture>("ItemTextures/" + canItem.itemName+"_tex");
-		canModel.renderer.material.mainTexture = canTexture;
+		canModel.GetComponent<Renderer>().material.mainTexture = canTexture;
 	}
 }

@@ -42,7 +42,7 @@ public class HipsterNav : MonoBehaviour {
 			}
 		}
 		// set default color
-		mat = cube.renderer.material;
+		mat = cube.GetComponent<Renderer>().material;
 		mat.color = defaultColor;
 
 		//set drinks

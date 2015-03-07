@@ -34,7 +34,7 @@ public class PlayerNav : MonoBehaviour {
 		agent = GetComponent<NavMeshAgent>();
 		dizzy = false;
 		dizzyTimer = 0f;
-		mat = cube.renderer.material;
+		mat = cube.GetComponent<Renderer>().material;
 	}
 
 	void Update() {
@@ -71,7 +71,7 @@ public class PlayerNav : MonoBehaviour {
 			// disable waypoint
 			waypoint.SetActive(false);
 			// add knockback force
-			rigidbody.AddExplosionForce(knockbackForce, collision.transform.position, knockbackRadius);
+			GetComponent<Rigidbody>().AddExplosionForce(knockbackForce, collision.transform.position, knockbackRadius);
 			// count cans to lose
 			if (wizardSettings.inventoryTotal > 0) {
 				int canLoss = Mathf.Clamp((wizardSettings.inventoryTotal / 2), 1, 10);
