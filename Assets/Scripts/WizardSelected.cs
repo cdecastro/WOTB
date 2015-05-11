@@ -63,7 +63,7 @@ public class WizardSelected : MonoBehaviour {
 
 	void TurnOnSelectionOption () {
 		gameObject.tag = wizardTag;
-		tapToSelect.SetActive(true);
+		tapToSelect.SetActive(false);
 		wizardUI.SetActive(false);
 		wizardInfo.SetActive(false);
 		inventoryUI.SetActive(false);
