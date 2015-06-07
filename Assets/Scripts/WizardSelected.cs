@@ -15,6 +15,7 @@ public class WizardSelected : MonoBehaviour {
 	void Start () {
 		agent = GetComponent<NavMeshAgent>();
 		TurnOnSelectionOption();
+		tapToSelect.SetActive(false); //turn off tap to select at beginning of gameplay
 	}
 
 	void Update () {
@@ -63,7 +64,7 @@ public class WizardSelected : MonoBehaviour {
 
 	void TurnOnSelectionOption () {
 		gameObject.tag = wizardTag;
-		tapToSelect.SetActive(false);
+		tapToSelect.SetActive(true);
 		wizardUI.SetActive(false);
 		wizardInfo.SetActive(false);
 		inventoryUI.SetActive(false);
