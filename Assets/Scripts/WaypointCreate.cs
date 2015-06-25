@@ -33,7 +33,7 @@ public class WaypointCreate: MonoBehaviour, IPointerDownHandler, IDragHandler {
 
 	public void MoveWaypoint (PointerEventData eventData) {
 
-		Vector3 hitPosition = eventData.worldPosition;
+		Vector3 hitPosition = eventData.pointerCurrentRaycast.worldPosition;
 //		GameObject selectedObject = CameraFollow.selected;
 		if (CameraFollow.selected.tag == playerTag) {
 			NavMeshHit hit;
