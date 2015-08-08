@@ -105,7 +105,7 @@ public class Party : MonoBehaviour {
 
 			
 			//+1 to activate time
-			activateTimer += 2f;
+//			activateTimer += 2f;
 			// Debug.Log("add time");
 
 		}
