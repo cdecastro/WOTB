@@ -17,6 +17,10 @@ public class GameController : MonoBehaviour {
 	public bool pausePark;
 	float minFOV;
 
+	void Awake() {
+		Application.targetFrameRate = 60;
+	}
+
 	void Start() {
 		//turn off menu button
 		menuButton.SetActive(false);
