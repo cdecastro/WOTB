@@ -1658,7 +1658,7 @@ MonoBehaviour:
   scanEnable: 0
   hipstersToSpawn: 0
   hipstersMaxSpawn: 2
-  activateTimer: 10
+  activateTimer: 12
   spawnTimer: 5
 --- !u!135 &248309048
 SphereCollider:
@@ -4473,7 +4473,7 @@ MonoBehaviour:
   scanEnable: 0
   hipstersToSpawn: 0
   hipstersMaxSpawn: 2
-  activateTimer: 10
+  activateTimer: 12
   spawnTimer: 5
 --- !u!1 &509624775
 GameObject:
@@ -7574,7 +7574,7 @@ MonoBehaviour:
   scanEnable: 0
   hipstersToSpawn: 0
   hipstersMaxSpawn: 2
-  activateTimer: 10
+  activateTimer: 12
   spawnTimer: 5
 --- !u!135 &884393252
 SphereCollider:
@@ -13707,8 +13707,8 @@ MonoBehaviour:
   timer: 0
   scanEnable: 0
   hipstersToSpawn: 0
-  hipstersMaxSpawn: 4
-  activateTimer: 10
+  hipstersMaxSpawn: 2
+  activateTimer: 12
   spawnTimer: 5
 --- !u!135 &1403992323
 SphereCollider:
@@ -19890,7 +19890,7 @@ MonoBehaviour:
   scanEnable: 0
   hipstersToSpawn: 0
   hipstersMaxSpawn: 2
-  activateTimer: 10
+  activateTimer: 12
   spawnTimer: 5
 --- !u!135 &2105879973
 SphereCollider:
