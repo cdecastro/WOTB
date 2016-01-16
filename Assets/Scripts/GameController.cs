@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour {
 	float minFOV;
 
 	void Awake() {
-		Application.targetFrameRate = 60;
+//		Application.targetFrameRate = 60;
 	}
 
 	void Start() {
