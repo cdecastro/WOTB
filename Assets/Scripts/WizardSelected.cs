@@ -9,6 +9,7 @@ public class WizardSelected : MonoBehaviour {
 	public GameObject wizardUI;
 	public GameObject wizardInfo;
 	public GameObject inventoryUI;
+	public GameObject closeInventoryUI;
 	public GameObject waypoint;
 	private NavMeshAgent agent;
 
@@ -22,7 +23,7 @@ public class WizardSelected : MonoBehaviour {
 		if (waypoint.activeSelf == true) {
 			wizardUI.SetActive(false);
 			wizardInfo.SetActive(false);
-			inventoryUI.SetActive(false);
+			TurnOffInventoryUI ();
 			tapToSelect.SetActive(false);
 		}
 
@@ -55,11 +56,13 @@ public class WizardSelected : MonoBehaviour {
 
 	public void TurnOnInventoryUI () {
 		inventoryUI.SetActive(true);
+		closeInventoryUI.SetActive(true);
 		wizardUI.SetActive(false);
 	}
 	
 	public void TurnOffInventoryUI () {
 		inventoryUI.SetActive(false);
+		closeInventoryUI.SetActive(false);
 	}
 
 	void TurnOnSelectionOption () {
@@ -67,7 +70,7 @@ public class WizardSelected : MonoBehaviour {
 		tapToSelect.SetActive(true);
 		wizardUI.SetActive(false);
 		wizardInfo.SetActive(false);
-		inventoryUI.SetActive(false);
+		TurnOffInventoryUI ();
 	}
 
 }
