@@ -5574,7 +5574,7 @@ MonoBehaviour:
   playerTag: Player
   waypoint: {fileID: 1279416611}
   cameraSmoothing: 0.9
-  zoomDistance: 7
+  zoomDistance: 5.5
   minFov: 8
   maxFov: 15
   zoomOutSmoothing: 1.5
