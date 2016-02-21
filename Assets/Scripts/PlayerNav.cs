@@ -74,7 +74,7 @@ public class PlayerNav : MonoBehaviour {
 			GetComponent<Rigidbody>().AddExplosionForce(knockbackForce, collision.transform.position, knockbackRadius);
 			// count cans to lose
 			if (wizardSettings.inventoryTotal > 0) {
-				int canLoss = Mathf.Clamp((wizardSettings.inventoryTotal / 2), 1, 10);
+				int canLoss = Mathf.Clamp((wizardSettings.inventoryTotal / 2), 1, 20);
 				for (int i = 0; i < canLoss; i++) {
 					MakeCan(); // lose # of cans
 				}
