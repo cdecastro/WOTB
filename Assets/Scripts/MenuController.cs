@@ -7,6 +7,7 @@ public class MenuController : MonoBehaviour {
 	Vector3 startingCameraPosition;
 
 	public GameObject title;
+	public GameObject street;
 	public GameObject navigation;
 	public GameObject stores;
 	public GameObject home;
