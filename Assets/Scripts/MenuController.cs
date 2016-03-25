@@ -8,15 +8,15 @@ public class MenuController : MonoBehaviour {
 
 	public GameObject title;
 	public GameObject street;
-	public GameObject navigation;
-	public GameObject stores;
+//	public GameObject navigation;
+//	public GameObject stores;
 	public GameObject home;
 	public GameObject beerStore;
 	public GameObject cornerStore;
 	public GameObject parkButton;
-	public GameObject homeButton;
-	public GameObject storesButton;
-	public GameObject navigationButton;
+//	public GameObject homeButton;
+//	public GameObject storesButton;
+//	public GameObject navigationButton;
 
 	[SerializeField] string menuTag = "MenuWindow";
 	[SerializeField] string storeTag = "StoreWindow";
@@ -32,9 +32,9 @@ public class MenuController : MonoBehaviour {
 
 	void Update () {
 		// turn off button if window is enabled
-		navigationButton.SetActive(!navigation.activeSelf);
-		storesButton.SetActive(!stores.activeSelf);
- 		homeButton.SetActive(!home.activeSelf);
+//		navigationButton.SetActive(!navigation.activeSelf);
+//		storesButton.SetActive(!stores.activeSelf);
+// 		homeButton.SetActive(!home.activeSelf);
 	}
 
 	void LateUpdate () {
@@ -43,21 +43,21 @@ public class MenuController : MonoBehaviour {
 	}
 
 	void MenuStartup () {
-		TurnOffAllMenus();
+//		TurnOffAllMenus();
 		TurnOffAllSubMenus();
 		title.SetActive(true);
-		navigation.SetActive(true);
+//		navigation.SetActive(true);
 	}
-
-	void TurnOffAllMenus () {
-		GameObject[] menus;
-		menus = GameObject.FindGameObjectsWithTag(menuTag);
-		foreach (GameObject menu in menus) {
-			menu.SetActive(false);
-		}
-	}
-
-	void TurnOffAllSubMenus () {
+//
+//	void TurnOffAllMenus () {
+//		GameObject[] menus;
+//		menus = GameObject.FindGameObjectsWithTag(menuTag);
+//		foreach (GameObject menu in menus) {
+//			menu.SetActive(false);
+//		}
+//	}
+//
+	public void TurnOffAllSubMenus () {
 		GameObject[] storeMenus;
 		storeMenus = GameObject.FindGameObjectsWithTag(storeTag);
 		foreach (GameObject store in storeMenus) {
@@ -71,17 +71,17 @@ public class MenuController : MonoBehaviour {
 		}
 	}
 
-	public void GoToNavigation () {
-		TurnOffAllMenus();
-		TurnOffAllSubMenus();
-		navigation.SetActive(true);
-	}
+//	public void GoToNavigation () {
+//		TurnOffAllMenus();
+//		TurnOffAllSubMenus();
+//		navigation.SetActive(true);
+//	}
 
-	public void GoToStores () {
-		TurnOffAllMenus();
-		TurnOffAllSubMenus();
-		stores.SetActive(true);
-	}
+//	public void GoToStores () {
+//		TurnOffAllMenus();
+//		TurnOffAllSubMenus();
+//		stores.SetActive(true);
+//	}
 
 	public void GoToBeerStore () {
 		if (!beerStore.activeSelf) {
@@ -98,9 +98,11 @@ public class MenuController : MonoBehaviour {
 	}
 
 	public void GoHome () {
-		TurnOffAllMenus();
-		TurnOffAllSubMenus();
-		home.SetActive(true);
+//		TurnOffAllMenus();
+		if (!home.activeSelf) {
+			TurnOffAllSubMenus();
+			home.SetActive(true);
+		}
 	}
 		
 	public void TurnOffTitle () {
