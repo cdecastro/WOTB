@@ -19,7 +19,7 @@ public class PlayerNav : MonoBehaviour {
 	public float canPopForce = 15f;
 //	public int cansInv = 0;
 
-	private NavMeshAgent agent;
+	private UnityEngine.AI.NavMeshAgent agent;
 	private Vector3 destination;
 	public bool dizzy;
 	private float dizzyTimer;
@@ -31,7 +31,7 @@ public class PlayerNav : MonoBehaviour {
 	void Start() {
 		wizardInventory = GetComponent<Inventory>();
 		wizardSettings = GetComponent<WizardSettings>();
-		agent = GetComponent<NavMeshAgent>();
+		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		dizzy = false;
 		dizzyTimer = 0f;
 		mat = cube.GetComponent<Renderer>().material;

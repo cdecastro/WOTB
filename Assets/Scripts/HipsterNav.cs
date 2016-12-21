@@ -17,7 +17,7 @@ public class HipsterNav : MonoBehaviour {
 	public float canSpawnRadius = 0.75f;
 	public float canSpawnHeight = 1f;
 	
-	private NavMeshAgent agent;
+	private UnityEngine.AI.NavMeshAgent agent;
 	private Vector3 destination;
 	private Material mat;
 	[SerializeField] float drinkTimer = 0f;
@@ -49,7 +49,7 @@ public class HipsterNav : MonoBehaviour {
 		drinks += Random.Range(1, 3);
 
 		// set destination
-		agent = GetComponent<NavMeshAgent>();
+		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		destination = party.transform.position;
 		agent.SetDestination(destination);
 	}

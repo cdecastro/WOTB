@@ -62,12 +62,12 @@ TextureImporter:
     21300114: WOTB_wiz00_walk_09
     21300116: WOTB_wiz00_walk_10
     21300118: WOTB_wiz00_walk_11
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -79,10 +79,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 4096
@@ -93,9 +91,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -103,12 +99,28 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: WOTB_hipster00_drink_00
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_00
       rect:
         serializedVersion: 2
         x: 436
@@ -118,31 +130,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 75.5}
-        - {x: 22, y: 47.5}
-        - {x: 29, y: 43.5}
-        - {x: 30, y: 12.5}
-        - {x: 35, y: 5.5}
-        - {x: 28, y: -0.5}
-        - {x: 29, y: 42.5}
-        - {x: 4, y: 54.5}
-        - {x: -53, y: -26.5}
-        - {x: -50, y: -53.5}
-        - {x: -48, y: -55.5}
-        - {x: -39, y: -55.5}
-        - {x: -36, y: -52.5}
-        - {x: 18, y: -55.5}
-        - {x: -70, y: -55.5}
-        - {x: -70, y: -50.5}
-        - {x: -72, y: -48.5}
-        - {x: -77, y: -48.5}
-        - {x: -77, y: -70.5}
-        - {x: -10, y: -75.5}
-        - {x: 77, y: -75.5}
-        - {x: 77, y: 52.5}
-        - {x: 66, y: 75.5}
-    - name: WOTB_hipster00_drink_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_01
       rect:
         serializedVersion: 2
         x: 436
@@ -152,31 +143,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 75.5}
-        - {x: 22, y: 47.5}
-        - {x: 29, y: 43.5}
-        - {x: 30, y: 12.5}
-        - {x: 35, y: 5.5}
-        - {x: 28, y: -0.5}
-        - {x: 29, y: 42.5}
-        - {x: 4, y: 54.5}
-        - {x: -53, y: -26.5}
-        - {x: -50, y: -53.5}
-        - {x: -48, y: -55.5}
-        - {x: -39, y: -55.5}
-        - {x: -36, y: -52.5}
-        - {x: 18, y: -55.5}
-        - {x: -70, y: -55.5}
-        - {x: -70, y: -50.5}
-        - {x: -72, y: -48.5}
-        - {x: -77, y: -48.5}
-        - {x: -77, y: -70.5}
-        - {x: -10, y: -75.5}
-        - {x: 77, y: -75.5}
-        - {x: 77, y: 52.5}
-        - {x: 66, y: 75.5}
-    - name: WOTB_hipster00_drink_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_02
       rect:
         serializedVersion: 2
         x: 436
@@ -186,31 +156,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 75.5}
-        - {x: 22, y: 47.5}
-        - {x: 29, y: 43.5}
-        - {x: 30, y: 12.5}
-        - {x: 35, y: 5.5}
-        - {x: 28, y: -0.5}
-        - {x: 29, y: 42.5}
-        - {x: 4, y: 54.5}
-        - {x: -53, y: -26.5}
-        - {x: -50, y: -53.5}
-        - {x: -48, y: -55.5}
-        - {x: -39, y: -55.5}
-        - {x: -36, y: -52.5}
-        - {x: 18, y: -55.5}
-        - {x: -70, y: -55.5}
-        - {x: -70, y: -50.5}
-        - {x: -72, y: -48.5}
-        - {x: -77, y: -48.5}
-        - {x: -77, y: -70.5}
-        - {x: -10, y: -75.5}
-        - {x: 77, y: -75.5}
-        - {x: 77, y: 52.5}
-        - {x: 66, y: 75.5}
-    - name: WOTB_hipster00_drink_03
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_03
       rect:
         serializedVersion: 2
         x: 436
@@ -220,31 +169,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 75.5}
-        - {x: 22, y: 47.5}
-        - {x: 29, y: 43.5}
-        - {x: 30, y: 12.5}
-        - {x: 35, y: 5.5}
-        - {x: 28, y: -0.5}
-        - {x: 29, y: 42.5}
-        - {x: 4, y: 54.5}
-        - {x: -53, y: -26.5}
-        - {x: -50, y: -53.5}
-        - {x: -48, y: -55.5}
-        - {x: -39, y: -55.5}
-        - {x: -36, y: -52.5}
-        - {x: 18, y: -55.5}
-        - {x: -70, y: -55.5}
-        - {x: -70, y: -50.5}
-        - {x: -72, y: -48.5}
-        - {x: -77, y: -48.5}
-        - {x: -77, y: -70.5}
-        - {x: -10, y: -75.5}
-        - {x: 77, y: -75.5}
-        - {x: 77, y: 52.5}
-        - {x: 66, y: 75.5}
-    - name: WOTB_hipster00_drink_04
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_04
       rect:
         serializedVersion: 2
         x: 422
@@ -254,33 +182,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 68, y: 76.5}
-        - {x: 38, y: 76.5}
-        - {x: 29, y: 72.5}
-        - {x: -5, y: 8.5}
-        - {x: -2, y: -10.5}
-        - {x: 10, y: -19.5}
-        - {x: -2, y: -12.5}
-        - {x: -24, y: -12.5}
-        - {x: -46, y: -31.5}
-        - {x: -50, y: -45.5}
-        - {x: -50, y: -54.5}
-        - {x: -48, y: -56.5}
-        - {x: -39, y: -56.5}
-        - {x: -36, y: -53.5}
-        - {x: 18, y: -56.5}
-        - {x: -70, y: -56.5}
-        - {x: -70, y: -51.5}
-        - {x: -72, y: -49.5}
-        - {x: -77, y: -49.5}
-        - {x: -77, y: -71.5}
-        - {x: -21, y: -76.5}
-        - {x: 69, y: -76.5}
-        - {x: 77, y: -74.5}
-        - {x: 77, y: 39.5}
-        - {x: 71, y: 74.5}
-    - name: WOTB_hipster00_drink_05
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_05
       rect:
         serializedVersion: 2
         x: 280
@@ -290,25 +195,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 33, y: 77}
-        - {x: -17, y: 43}
-        - {x: -36, y: 5}
-        - {x: -55, y: -45}
-        - {x: -50, y: -55}
-        - {x: -48, y: -57}
-        - {x: -39, y: -57}
-        - {x: -36, y: -54}
-        - {x: 18, y: -57}
-        - {x: -70, y: -57}
-        - {x: -70, y: -52}
-        - {x: -72, y: -50}
-        - {x: -77, y: -50}
-        - {x: -77, y: -72}
-        - {x: -10, y: -77}
-        - {x: 77, y: -77}
-        - {x: 77, y: 77}
-    - name: WOTB_hipster00_drink_06
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_06
       rect:
         serializedVersion: 2
         x: 266
@@ -318,24 +208,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 31, y: 77}
-        - {x: -7, y: 50}
-        - {x: -64, y: -44}
-        - {x: -48, y: -57}
-        - {x: -39, y: -57}
-        - {x: -36, y: -54}
-        - {x: 18, y: -57}
-        - {x: -70, y: -57}
-        - {x: -70, y: -52}
-        - {x: -72, y: -50}
-        - {x: -77, y: -50}
-        - {x: -77, y: -72}
-        - {x: -21, y: -77}
-        - {x: 77, y: -77}
-        - {x: 77, y: 68}
-        - {x: 73, y: 77}
-    - name: WOTB_hipster00_drink_07
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_07
       rect:
         serializedVersion: 2
         x: 273
@@ -345,25 +221,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 30, y: 77.5}
-        - {x: -1, y: 46.5}
-        - {x: -19, y: 18.5}
-        - {x: -50, y: -30.5}
-        - {x: -52, y: -56.5}
-        - {x: -48, y: -57.5}
-        - {x: -39, y: -57.5}
-        - {x: -36, y: -54.5}
-        - {x: 18, y: -57.5}
-        - {x: -70, y: -57.5}
-        - {x: -70, y: -52.5}
-        - {x: -72, y: -50.5}
-        - {x: -77, y: -50.5}
-        - {x: -77, y: -72.5}
-        - {x: -21, y: -77.5}
-        - {x: 77, y: -77.5}
-        - {x: 77, y: 77.5}
-    - name: WOTB_hipster00_drink_08
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_08
       rect:
         serializedVersion: 2
         x: 275
@@ -373,24 +234,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: -28}
-        - {x: -52, y: -56}
-        - {x: -48, y: -57}
-        - {x: -39, y: -57}
-        - {x: -36, y: -54}
-        - {x: 18, y: -57}
-        - {x: -70, y: -57}
-        - {x: -70, y: -52}
-        - {x: -72, y: -50}
-        - {x: -77, y: -50}
-        - {x: -77, y: -72}
-        - {x: -21, y: -77}
-        - {x: 77, y: -77}
-        - {x: 77, y: 77}
-        - {x: 24, y: 77}
-        - {x: -13, y: 69}
-    - name: WOTB_hipster00_drink_09
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_09
       rect:
         serializedVersion: 2
         x: 275
@@ -400,24 +247,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27, y: 77}
-        - {x: -54, y: -28}
-        - {x: -52, y: -56}
-        - {x: -48, y: -57}
-        - {x: -39, y: -57}
-        - {x: -36, y: -54}
-        - {x: 18, y: -57}
-        - {x: -70, y: -57}
-        - {x: -70, y: -52}
-        - {x: -72, y: -50}
-        - {x: -77, y: -50}
-        - {x: -77, y: -72}
-        - {x: -21, y: -77}
-        - {x: 77, y: -77}
-        - {x: 77, y: 61}
-        - {x: 72, y: 77}
-    - name: WOTB_hipster00_drink_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_10
       rect:
         serializedVersion: 2
         x: 429
@@ -427,32 +260,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 68, y: 76.5}
-        - {x: 29, y: 76.5}
-        - {x: -8, y: 8.5}
-        - {x: -2, y: -11.5}
-        - {x: 5, y: -15.5}
-        - {x: -2, y: -12.5}
-        - {x: -24, y: -12.5}
-        - {x: -46, y: -31.5}
-        - {x: -50, y: -45.5}
-        - {x: -50, y: -54.5}
-        - {x: -48, y: -56.5}
-        - {x: -39, y: -56.5}
-        - {x: -36, y: -53.5}
-        - {x: 18, y: -56.5}
-        - {x: -70, y: -56.5}
-        - {x: -70, y: -51.5}
-        - {x: -72, y: -49.5}
-        - {x: -77, y: -49.5}
-        - {x: -77, y: -71.5}
-        - {x: -21, y: -76.5}
-        - {x: 69, y: -76.5}
-        - {x: 77, y: -74.5}
-        - {x: 77, y: 11.5}
-        - {x: 71, y: 70.5}
-    - name: WOTB_hipster00_drink_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_drink_11
       rect:
         serializedVersion: 2
         x: 436
@@ -462,31 +273,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 32, y: 75.5}
-        - {x: 22, y: 47.5}
-        - {x: 29, y: 43.5}
-        - {x: 30, y: 12.5}
-        - {x: 35, y: 5.5}
-        - {x: 28, y: -0.5}
-        - {x: 29, y: 42.5}
-        - {x: 4, y: 54.5}
-        - {x: -53, y: -26.5}
-        - {x: -50, y: -53.5}
-        - {x: -48, y: -55.5}
-        - {x: -39, y: -55.5}
-        - {x: -36, y: -52.5}
-        - {x: 18, y: -55.5}
-        - {x: -70, y: -55.5}
-        - {x: -70, y: -50.5}
-        - {x: -72, y: -48.5}
-        - {x: -77, y: -48.5}
-        - {x: -77, y: -70.5}
-        - {x: -10, y: -75.5}
-        - {x: 77, y: -75.5}
-        - {x: 77, y: 52.5}
-        - {x: 66, y: 75.5}
-    - name: WOTB_hipster00_walk_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_00
       rect:
         serializedVersion: 2
         x: 185
@@ -496,15 +286,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14.5, y: 122}
-        - {x: -46.5, y: 64}
-        - {x: -46.5, y: -111}
-        - {x: -45.5, y: -122}
-        - {x: 46.5, y: -122}
-        - {x: 46.5, y: -8}
-        - {x: 20.5, y: 122}
-    - name: WOTB_hipster00_walk_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_01
       rect:
         serializedVersion: 2
         x: 90
@@ -514,15 +299,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -35.5, y: 123.5}
-        - {x: -46.5, y: 108.5}
-        - {x: -46.5, y: -123.5}
-        - {x: 12.5, y: -123.5}
-        - {x: 46.5, y: -119.5}
-        - {x: 46.5, y: 70.5}
-        - {x: 22.5, y: 123.5}
-    - name: WOTB_hipster00_walk_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_02
       rect:
         serializedVersion: 2
         x: 2
@@ -532,26 +312,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: -119}
-        - {x: -15.5, y: -124}
-        - {x: 5.5, y: -124}
-        - {x: 5.5, y: -119}
-        - {x: 3.5, y: -117}
-        - {x: -13.5, y: -117}
-      - - {x: 46.5, y: -84}
-        - {x: 42.5, y: -77}
-        - {x: 46.5, y: 7}
-        - {x: 18.5, y: 124}
-        - {x: -16.5, y: 124}
-        - {x: -46.5, y: 60}
-        - {x: -46.5, y: -26}
-        - {x: -15.5, y: -115}
-        - {x: 5.5, y: -115}
-        - {x: 5.5, y: -114}
-        - {x: 4.5, y: -98}
-        - {x: 46.5, y: -101}
-    - name: WOTB_hipster00_walk_03
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_03
       rect:
         serializedVersion: 2
         x: 90
@@ -561,24 +325,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1.5, y: -119}
-        - {x: -1.5, y: -124}
-        - {x: 19.5, y: -124}
-        - {x: 19.5, y: -119}
-        - {x: 17.5, y: -117}
-        - {x: 0.5, y: -117}
-      - - {x: 46.5, y: 26}
-        - {x: 27.5, y: 124}
-        - {x: -15.5, y: 124}
-        - {x: -46.5, y: 79}
-        - {x: -46.5, y: 12}
-        - {x: -5.5, y: -116}
-        - {x: 15.5, y: -116}
-        - {x: 16.5, y: -113}
-        - {x: 15.5, y: -107}
-        - {x: 46.5, y: -97}
-    - name: WOTB_hipster00_walk_04
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_04
       rect:
         serializedVersion: 2
         x: 2
@@ -588,15 +338,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23, y: 124}
-        - {x: -43, y: 106}
-        - {x: -43, y: -51}
-        - {x: -11, y: -124}
-        - {x: 43, y: -124}
-        - {x: 43, y: 115}
-        - {x: 18, y: 124}
-    - name: WOTB_hipster00_walk_05
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_05
       rect:
         serializedVersion: 2
         x: 185
@@ -606,30 +351,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: -112.5}
-        - {x: -11, y: -120.5}
-        - {x: -10, y: -121.5}
-        - {x: 10, y: -121.5}
-        - {x: 10, y: -115.5}
-        - {x: 4, y: -112.5}
-      - - {x: 28, y: 119.5}
-        - {x: 20, y: 121.5}
-        - {x: -16, y: 121.5}
-        - {x: -43, y: 91.5}
-        - {x: -43, y: -44.5}
-        - {x: -17, y: -120.5}
-        - {x: 4, y: -120.5}
-        - {x: 10, y: -113.5}
-        - {x: 12, y: -110.5}
-        - {x: 12, y: -115.5}
-        - {x: 15, y: -120.5}
-        - {x: 18, y: -120.5}
-        - {x: 28, y: -116.5}
-        - {x: 34, y: -111.5}
-        - {x: 43, y: -63.5}
-        - {x: 43, y: 27.5}
-    - name: WOTB_hipster00_walk_06
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_06
       rect:
         serializedVersion: 2
         x: 178
@@ -639,25 +364,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: -114}
-        - {x: -1, y: -115}
-        - {x: 4, y: -116}
-        - {x: 10, y: -117}
-        - {x: 43, y: -100}
-        - {x: 43, y: 49}
-        - {x: 24, y: 123}
-        - {x: -14, y: 123}
-        - {x: -18, y: 119}
-        - {x: -43, y: 72}
-        - {x: -43, y: -8}
-        - {x: -24, y: -120}
-        - {x: -10, y: -123}
-        - {x: 2, y: -123}
-        - {x: 3, y: -119}
-        - {x: 0, y: -115}
-        - {x: -4, y: -114}
-    - name: WOTB_hipster00_walk_07
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_07
       rect:
         serializedVersion: 2
         x: 97
@@ -667,22 +377,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: -118.5}
-        - {x: -6, y: -123.5}
-        - {x: 15, y: -123.5}
-        - {x: 15, y: -118.5}
-        - {x: 13, y: -116.5}
-        - {x: -4, y: -116.5}
-      - - {x: -14, y: 123.5}
-        - {x: -43, y: 95.5}
-        - {x: -43, y: -53.5}
-        - {x: -29, y: -114.5}
-        - {x: 22, y: -114.5}
-        - {x: 43, y: -39.5}
-        - {x: 43, y: 60.5}
-        - {x: 24, y: 123.5}
-    - name: WOTB_hipster00_walk_08
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_08
       rect:
         serializedVersion: 2
         x: 2
@@ -692,22 +390,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: -119.5}
-        - {x: 3, y: -124.5}
-        - {x: 24, y: -124.5}
-        - {x: 24, y: -119.5}
-        - {x: 22, y: -117.5}
-        - {x: 5, y: -117.5}
-      - - {x: -24, y: 124.5}
-        - {x: -43, y: 80.5}
-        - {x: -43, y: -29.5}
-        - {x: -8, y: -115.5}
-        - {x: 24, y: -115.5}
-        - {x: 43, y: -47.5}
-        - {x: 43, y: 66.5}
-        - {x: 26, y: 124.5}
-    - name: WOTB_hipster00_walk_09
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_09
       rect:
         serializedVersion: 2
         x: 2
@@ -717,33 +403,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13, y: -119}
-        - {x: 13, y: -124}
-        - {x: 34, y: -124}
-        - {x: 34, y: -119}
-        - {x: 32, y: -117}
-        - {x: 15, y: -117}
-      - - {x: 21, y: -120}
-        - {x: 35, y: -120}
-        - {x: 43, y: -76}
-        - {x: 43, y: 25}
-        - {x: 39, y: 42}
-        - {x: 22, y: 53}
-        - {x: 19, y: 54}
-        - {x: 16, y: 54}
-        - {x: 26, y: 56}
-        - {x: 30, y: 121}
-        - {x: 21, y: 124}
-        - {x: -25, y: 124}
-        - {x: -43, y: 73}
-        - {x: -43, y: -15}
-        - {x: -14, y: -120}
-        - {x: 2, y: -120}
-        - {x: 7, y: -113}
-        - {x: 11, y: -103}
-        - {x: 15, y: -117}
-    - name: WOTB_hipster00_walk_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_10
       rect:
         serializedVersion: 2
         x: 90
@@ -753,15 +416,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23, y: 123.5}
-        - {x: -43, y: 66.5}
-        - {x: -43, y: -123.5}
-        - {x: 35, y: -123.5}
-        - {x: 43, y: -112.5}
-        - {x: 43, y: 63.5}
-        - {x: 22, y: 123.5}
-    - name: WOTB_hipster00_walk_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_hipster00_walk_11
       rect:
         serializedVersion: 2
         x: 185
@@ -771,12 +429,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -44, y: 120.5}
-        - {x: -44, y: -120.5}
-        - {x: 44, y: -120.5}
-        - {x: 44, y: 120.5}
-    - name: WOTB_wiz00_idle_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_00
       rect:
         serializedVersion: 2
         x: 906
@@ -786,14 +442,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_01
       rect:
         serializedVersion: 2
         x: 906
@@ -803,14 +455,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_02
       rect:
         serializedVersion: 2
         x: 906
@@ -820,14 +468,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_03
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_03
       rect:
         serializedVersion: 2
         x: 906
@@ -837,14 +481,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_04
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_04
       rect:
         serializedVersion: 2
         x: 906
@@ -854,14 +494,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_05
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_05
       rect:
         serializedVersion: 2
         x: 906
@@ -871,14 +507,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_06
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_06
       rect:
         serializedVersion: 2
         x: 906
@@ -888,14 +520,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_07
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_07
       rect:
         serializedVersion: 2
         x: 904
@@ -905,14 +533,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_08
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_08
       rect:
         serializedVersion: 2
         x: 906
@@ -922,14 +546,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_09
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_09
       rect:
         serializedVersion: 2
         x: 906
@@ -939,14 +559,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_10
       rect:
         serializedVersion: 2
         x: 906
@@ -956,14 +572,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_idle_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_idle_11
       rect:
         serializedVersion: 2
         x: 906
@@ -973,14 +585,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -57, y: 70.5}
-        - {x: -57, y: -37.5}
-        - {x: -54, y: -70.5}
-        - {x: 57, y: -70.5}
-        - {x: 57, y: 32.5}
-        - {x: 10, y: 70.5}
-    - name: WOTB_wiz00_knockdown_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_00
       rect:
         serializedVersion: 2
         x: 645
@@ -990,16 +598,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: 66}
-        - {x: -62, y: -23}
-        - {x: -60, y: -26}
-        - {x: -57, y: -66}
-        - {x: 34, y: -66}
-        - {x: 62, y: -59}
-        - {x: 62, y: 16}
-        - {x: 30, y: 66}
-    - name: WOTB_wiz00_knockdown_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_01
       rect:
         serializedVersion: 2
         x: 266
@@ -1009,15 +611,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -0.5, y: 64.5}
-        - {x: -63.5, y: 64.5}
-        - {x: -63.5, y: -64.5}
-        - {x: 27.5, y: -64.5}
-        - {x: 63.5, y: -60.5}
-        - {x: 63.5, y: -19.5}
-        - {x: 8.5, y: 56.5}
-    - name: WOTB_wiz00_knockdown_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_02
       rect:
         serializedVersion: 2
         x: 645
@@ -1027,14 +624,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64.5, y: 63.5}
-        - {x: -64.5, y: -63.5}
-        - {x: 55.5, y: -63.5}
-        - {x: 64.5, y: -58.5}
-        - {x: 64.5, y: -15.5}
-        - {x: 15.5, y: 63.5}
-    - name: WOTB_wiz00_knockdown_03
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_03
       rect:
         serializedVersion: 2
         x: 395
@@ -1044,14 +637,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61.5, y: 64}
-        - {x: -61.5, y: -64}
-        - {x: 31.5, y: -64}
-        - {x: 61.5, y: -59}
-        - {x: 61.5, y: -14}
-        - {x: -0.5, y: 64}
-    - name: WOTB_wiz00_knockdown_04
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_04
       rect:
         serializedVersion: 2
         x: 431
@@ -1061,14 +650,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61.5, y: 63.5}
-        - {x: -61.5, y: -54.5}
-        - {x: -57.5, y: -63.5}
-        - {x: 61.5, y: -63.5}
-        - {x: 61.5, y: -9.5}
-        - {x: 23.5, y: 63.5}
-    - name: WOTB_wiz00_knockdown_05
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_05
       rect:
         serializedVersion: 2
         x: 431
@@ -1078,13 +663,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63.5, y: 57}
-        - {x: -63.5, y: -57}
-        - {x: 63.5, y: -57}
-        - {x: 63.5, y: -19}
-        - {x: 29.5, y: 57}
-    - name: WOTB_wiz00_knockdown_06
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_06
       rect:
         serializedVersion: 2
         x: 774
@@ -1094,14 +676,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63, y: 54.5}
-        - {x: -63, y: -54.5}
-        - {x: 62, y: -54.5}
-        - {x: 63, y: -52.5}
-        - {x: 63, y: -14.5}
-        - {x: 9, y: 54.5}
-    - name: WOTB_wiz00_knockdown_07
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_07
       rect:
         serializedVersion: 2
         x: 771
@@ -1111,19 +689,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 55.5}
-        - {x: -62, y: 54.5}
-        - {x: -62, y: -31.5}
-        - {x: -54, y: -34.5}
-        - {x: -43, y: -29.5}
-        - {x: -61, y: -40.5}
-        - {x: -62, y: -42.5}
-        - {x: -62, y: -55.5}
-        - {x: 62, y: -55.5}
-        - {x: 62, y: -25.5}
-        - {x: -2, y: 55.5}
-    - name: WOTB_wiz00_knockdown_08
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_08
       rect:
         serializedVersion: 2
         x: 826
@@ -1133,15 +702,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59, y: 56}
-        - {x: -62, y: 55}
-        - {x: -62, y: -56}
-        - {x: 58, y: -56}
-        - {x: 62, y: -51}
-        - {x: 62, y: -12}
-        - {x: 12, y: 56}
-    - name: WOTB_wiz00_knockdown_09
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_09
       rect:
         serializedVersion: 2
         x: 826
@@ -1151,13 +715,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: 57}
-        - {x: -62, y: -57}
-        - {x: 62, y: -57}
-        - {x: 62, y: 3}
-        - {x: 38, y: 57}
-    - name: WOTB_wiz00_knockdown_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_10
       rect:
         serializedVersion: 2
         x: 808
@@ -1167,14 +728,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: 58}
-        - {x: -62, y: -58}
-        - {x: 61, y: -58}
-        - {x: 62, y: -54}
-        - {x: 62, y: 29}
-        - {x: 6, y: 58}
-    - name: WOTB_wiz00_knockdown_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_knockdown_11
       rect:
         serializedVersion: 2
         x: 701
@@ -1184,13 +741,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61.5, y: 58.5}
-        - {x: -61.5, y: -58.5}
-        - {x: 61.5, y: -58.5}
-        - {x: 61.5, y: -16.5}
-        - {x: 2.5, y: 58.5}
-    - name: WOTB_wiz00_walk_00
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_00
       rect:
         serializedVersion: 2
         x: 431
@@ -1200,17 +754,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 61.5, y: 11.5}
-        - {x: 36.5, y: 71.5}
-        - {x: -61.5, y: 71.5}
-        - {x: -61.5, y: 0.5}
-        - {x: -49.5, y: -71.5}
-        - {x: -37.5, y: -71.5}
-        - {x: -35.5, y: -69.5}
-        - {x: -7.5, y: -71.5}
-        - {x: 61.5, y: -71.5}
-    - name: WOTB_wiz00_walk_01
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_01
       rect:
         serializedVersion: 2
         x: 901
@@ -1220,19 +767,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 1.5, y: 71}
-        - {x: -60.5, y: 71}
-        - {x: -60.5, y: -25}
-        - {x: -51.5, y: -68}
-        - {x: -43.5, y: -71}
-        - {x: -37.5, y: -71}
-        - {x: -34.5, y: -68}
-        - {x: -24.5, y: -71}
-        - {x: 60.5, y: -71}
-        - {x: 60.5, y: -40}
-        - {x: 8.5, y: 68}
-    - name: WOTB_wiz00_walk_02
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_02
       rect:
         serializedVersion: 2
         x: 556
@@ -1242,18 +780,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 52, y: -34}
-        - {x: -3, y: 71}
-        - {x: -62, y: 71}
-        - {x: -62, y: -71}
-        - {x: -41, y: -69}
-        - {x: -36, y: -65}
-        - {x: -5, y: -71}
-        - {x: 59, y: -71}
-        - {x: 62, y: -69}
-        - {x: 62, y: -43}
-    - name: WOTB_wiz00_walk_03
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_03
       rect:
         serializedVersion: 2
         x: 775
@@ -1263,13 +793,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63.5, y: 70.5}
-        - {x: -63.5, y: -70.5}
-        - {x: 63.5, y: -70.5}
-        - {x: 63.5, y: 7.5}
-        - {x: 40.5, y: 70.5}
-    - name: WOTB_wiz00_walk_04
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_04
       rect:
         serializedVersion: 2
         x: 776
@@ -1279,18 +806,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 70.5}
-        - {x: -64, y: -38.5}
-        - {x: -50, y: -63.5}
-        - {x: -41, y: -64.5}
-        - {x: -38, y: -59.5}
-        - {x: -8, y: -70.5}
-        - {x: 64, y: -70.5}
-        - {x: 64, y: -23.5}
-        - {x: 50, y: 4.5}
-        - {x: 2, y: 70.5}
-    - name: WOTB_wiz00_walk_05
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_05
       rect:
         serializedVersion: 2
         x: 774
@@ -1300,15 +819,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62.5, y: 71}
-        - {x: -62.5, y: -28}
-        - {x: -51.5, y: -70}
-        - {x: -43.5, y: -71}
-        - {x: 62.5, y: -71}
-        - {x: 62.5, y: 44}
-        - {x: 19.5, y: 71}
-    - name: WOTB_wiz00_walk_06
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_06
       rect:
         serializedVersion: 2
         x: 520
@@ -1318,14 +832,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -61.5, y: 72}
-        - {x: -61.5, y: -57}
-        - {x: -58.5, y: -72}
-        - {x: 61.5, y: -72}
-        - {x: 61.5, y: 4}
-        - {x: 39.5, y: 72}
-    - name: WOTB_wiz00_walk_07
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_07
       rect:
         serializedVersion: 2
         x: 578
@@ -1335,15 +845,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -51.5, y: 11}
-        - {x: -47.5, y: -71}
-        - {x: 60.5, y: -71}
-        - {x: 60.5, y: -15}
-        - {x: 21.5, y: 71}
-        - {x: -60.5, y: 71}
-        - {x: -60.5, y: 17}
-    - name: WOTB_wiz00_walk_08
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_08
       rect:
         serializedVersion: 2
         x: 682
@@ -1353,14 +858,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -47, y: -70.5}
-        - {x: 62, y: -70.5}
-        - {x: 62, y: -4.5}
-        - {x: 25, y: 70.5}
-        - {x: -62, y: 70.5}
-        - {x: -62, y: -4.5}
-    - name: WOTB_wiz00_walk_09
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_09
       rect:
         serializedVersion: 2
         x: 645
@@ -1370,15 +871,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0.5, y: 70.5}
-        - {x: -63.5, y: 70.5}
-        - {x: -63.5, y: -3.5}
-        - {x: -53.5, y: -70.5}
-        - {x: 63.5, y: -70.5}
-        - {x: 63.5, y: -38.5}
-        - {x: 6.5, y: 69.5}
-    - name: WOTB_wiz00_walk_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_10
       rect:
         serializedVersion: 2
         x: 645
@@ -1388,14 +884,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: -70.5}
-        - {x: 64, y: -70.5}
-        - {x: 64, y: -12.5}
-        - {x: 33, y: 70.5}
-        - {x: -64, y: 70.5}
-        - {x: -64, y: -57.5}
-    - name: WOTB_wiz00_walk_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: WOTB_wiz00_walk_11
       rect:
         serializedVersion: 2
         x: 645
@@ -1405,16 +897,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 62.5, y: -24.5}
-        - {x: 4.5, y: 70.5}
-        - {x: -62.5, y: 70.5}
-        - {x: -62.5, y: -12.5}
-        - {x: -48.5, y: -70.5}
-        - {x: -38.5, y: -70.5}
-        - {x: -36.5, y: -68.5}
-        - {x: -16.5, y: -70.5}
-        - {x: 62.5, y: -70.5}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

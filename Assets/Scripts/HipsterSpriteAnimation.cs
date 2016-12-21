@@ -5,7 +5,7 @@ public class HipsterSpriteAnimation : MonoBehaviour {
 
 	public GameObject hipster;
 	Animator anim;
-	NavMeshAgent agent;
+	UnityEngine.AI.NavMeshAgent agent;
 	int xVelocityHash = Animator.StringToHash("xVelocity");
 	int drinkingHash = Animator.StringToHash("drinking");
 	int idleHash = Animator.StringToHash("idle");
@@ -13,7 +13,7 @@ public class HipsterSpriteAnimation : MonoBehaviour {
 	
 	void Start () {
 		anim = GetComponent<Animator>();
-		agent = hipster.GetComponent<NavMeshAgent>();
+		agent = hipster.GetComponent<UnityEngine.AI.NavMeshAgent>();
 //		drinking = hipster.GetComponent<HipsterNav>().drinking;
 	}
 	

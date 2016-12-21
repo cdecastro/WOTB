@@ -36,8 +36,8 @@ public class WaypointCreate: MonoBehaviour, IPointerDownHandler, IDragHandler {
 		Vector3 hitPosition = eventData.pointerCurrentRaycast.worldPosition;
 //		GameObject selectedObject = CameraFollow.selected;
 		if (CameraFollow.selected.tag == playerTag) {
-			NavMeshHit hit;
-			if (NavMesh.SamplePosition(hitPosition, out hit, 1, 1)) {
+			UnityEngine.AI.NavMeshHit hit;
+			if (UnityEngine.AI.NavMesh.SamplePosition(hitPosition, out hit, 1, 1)) {
 				wayPoint.SetActive(true);
 				wayPoint.transform.position = new Vector3 (hitPosition.x, wayPoint.transform.position.y, hitPosition.z);
 			}

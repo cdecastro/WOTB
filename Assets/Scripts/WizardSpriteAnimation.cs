@@ -5,7 +5,7 @@ public class WizardSpriteAnimation : MonoBehaviour {
 
 	public GameObject wizard;
 	Animator anim;
-	NavMeshAgent agent;
+	UnityEngine.AI.NavMeshAgent agent;
 	int xVelocityHash = Animator.StringToHash("xVelocity");
 	int dizzyHash = Animator.StringToHash("dizzy");
 	int idleHash = Animator.StringToHash("idle");
@@ -13,7 +13,7 @@ public class WizardSpriteAnimation : MonoBehaviour {
 
 	void Start () {
 		anim = GetComponent<Animator>();
-		agent = wizard.GetComponent<NavMeshAgent>();
+		agent = wizard.GetComponent<UnityEngine.AI.NavMeshAgent>();
 	}
 	
 	void Update () {

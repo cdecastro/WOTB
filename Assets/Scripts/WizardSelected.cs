@@ -11,10 +11,10 @@ public class WizardSelected : MonoBehaviour {
 	public GameObject inventoryUI;
 	public GameObject closeInventoryUI;
 	public GameObject waypoint;
-	private NavMeshAgent agent;
+	private UnityEngine.AI.NavMeshAgent agent;
 
 	void Start () {
-		agent = GetComponent<NavMeshAgent>();
+		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		TurnOnSelectionOption();
 		tapToSelect.SetActive(false); //turn off tap to select at beginning of gameplay
 	}
