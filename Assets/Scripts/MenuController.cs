@@ -14,6 +14,7 @@ public class MenuController : MonoBehaviour {
 	public GameObject beerStore;
 	public GameObject cornerStore;
 	public GameObject parkButton;
+	public GameObject closeInventoryUI;
 //	public GameObject homeButton;
 //	public GameObject storesButton;
 //	public GameObject navigationButton;
@@ -87,6 +88,7 @@ public class MenuController : MonoBehaviour {
 		if (!beerStore.activeSelf) {
 			TurnOffAllSubMenus();
 			beerStore.SetActive(true);
+			closeInventoryUI.SetActive(true);
 		}
 	}
 
@@ -94,6 +96,7 @@ public class MenuController : MonoBehaviour {
 		if (!cornerStore.activeSelf) {
 			TurnOffAllSubMenus();
 			cornerStore.SetActive(true);
+			closeInventoryUI.SetActive(true);
 		}
 	}
 
@@ -102,6 +105,7 @@ public class MenuController : MonoBehaviour {
 		if (!home.activeSelf) {
 			TurnOffAllSubMenus();
 			home.SetActive(true);
+			closeInventoryUI.SetActive(true);
 		}
 	}
 		
