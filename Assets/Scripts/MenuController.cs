@@ -88,7 +88,7 @@ public class MenuController : MonoBehaviour {
 		if (!beerStore.activeSelf) {
 			TurnOffAllSubMenus();
 			beerStore.SetActive(true);
-			closeInventoryUI.SetActive(true);
+//			closeInventoryUI.SetActive(true);
 		}
 	}
 
@@ -96,7 +96,7 @@ public class MenuController : MonoBehaviour {
 		if (!cornerStore.activeSelf) {
 			TurnOffAllSubMenus();
 			cornerStore.SetActive(true);
-			closeInventoryUI.SetActive(true);
+//			closeInventoryUI.SetActive(true);
 		}
 	}
 
@@ -105,7 +105,7 @@ public class MenuController : MonoBehaviour {
 		if (!home.activeSelf) {
 			TurnOffAllSubMenus();
 			home.SetActive(true);
-			closeInventoryUI.SetActive(true);
+//			closeInventoryUI.SetActive(true);
 		}
 	}
 		

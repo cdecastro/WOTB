@@ -56,13 +56,13 @@ public class WizardSelected : MonoBehaviour {
 
 	public void TurnOnInventoryUI () {
 		inventoryUI.SetActive(true);
-		closeInventoryUI.SetActive(true);
+//		closeInventoryUI.SetActive(true);
 		wizardUI.SetActive(false);
 	}
 	
 	public void TurnOffInventoryUI () {
 		inventoryUI.SetActive(false);
-		closeInventoryUI.SetActive(false);
+//		closeInventoryUI.SetActive(false);
 	}
 
 	void TurnOnSelectionOption () {
