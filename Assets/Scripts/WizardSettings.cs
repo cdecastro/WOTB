@@ -9,6 +9,7 @@ public class WizardSettings : MonoBehaviour {
 	public bool inventoryFull = false;
 	public int moneyTotal;
 	public int starsTotal;
+	public static int questSize = 6;
 
 	void Start(){
 		//reset totals on start
