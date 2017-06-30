@@ -11,6 +11,7 @@ public class WizardSelected : MonoBehaviour {
 	public GameObject inventoryUI;
 	public GameObject closeInventoryUI;
 	public GameObject waypoint;
+	public GameObject questUI;
 	private UnityEngine.AI.NavMeshAgent agent;
 
 	void Start () {
@@ -24,6 +25,7 @@ public class WizardSelected : MonoBehaviour {
 			wizardUI.SetActive(false);
 			wizardInfo.SetActive(false);
 			TurnOffInventoryUI ();
+			TurnOffQuestUI ();
 			tapToSelect.SetActive(false);
 		}
 
@@ -72,5 +74,14 @@ public class WizardSelected : MonoBehaviour {
 		wizardInfo.SetActive(false);
 		TurnOffInventoryUI ();
 	}
+
+	public void TurnOnQuestUI () {
+		questUI.SetActive(true);
+	}
+
+	public void TurnOffQuestUI () {
+		questUI.SetActive(false);
+	}
+
 
 }

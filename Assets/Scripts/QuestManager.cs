@@ -23,12 +23,14 @@ public class QuestManager : MonoBehaviour {
 	}
 
 	public void AddQuest(int id) {
+		//check if the quest is active
 		bool isQuestActive = false;
 		for (int k = 0; k < activeQuests.Count; k++) {
 			if (activeQuests [k].questID == id) {
 				isQuestActive = true;
 			}
 		}
+		//if so, add the quest in the next availble slot
 		if (isQuestActive == false) {
 			for (int i = 0; i < activeQuests.Count; i++) {
 				if (activeQuests[i].questName == null) {
