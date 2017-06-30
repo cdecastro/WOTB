@@ -19,6 +19,10 @@ public class QuestTab : MonoBehaviour {
 
 	void LoadQuest() {
 		tabQuest = CameraFollow.selected.GetComponent<QuestManager>().activeQuests[tabID];
-		tabText.GetComponent<Text>().text = tabQuest.questDescription;
+		if (tabQuest.questDescription == null) {
+			tabText.GetComponent<Text> ().text = "";
+		} else {
+			tabText.GetComponent<Text> ().text = tabQuest.questDescription;
+		}
 	}
 }
