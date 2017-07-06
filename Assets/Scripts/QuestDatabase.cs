@@ -10,8 +10,4 @@ public class QuestDatabase : MonoBehaviour {
 		quests.Add( new Quest("Pay Cable", 2, "Cable Bill is overdue", Quest.QuestType.Pay, 35, null, null));
 		quests.Add( new Quest("Pay Phone", 3, "Phone Bill is overdue", Quest.QuestType.Pay, 35, null, null));
 	}
-	
-	void Update () {
-		
-	}
 }

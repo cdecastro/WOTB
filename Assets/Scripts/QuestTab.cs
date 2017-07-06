@@ -7,6 +7,7 @@ public class QuestTab : MonoBehaviour {
 
 	public int tabID;
 	public Quest tabQuest;
+	public GameObject tabText;
 
 	void Start() {
 		LoadQuest();
@@ -18,6 +19,7 @@ public class QuestTab : MonoBehaviour {
 
 	void LoadQuest() {
 		tabQuest = CameraFollow.selected.GetComponent<QuestManager>().activeQuests[tabID];
+		tabText.GetComponent<Text> ().text = tabQuest.questDescription;
 		if (tabQuest.questDescription == null) {
 			gameObject.GetComponent<Image> ().enabled = false;
 		} else {
