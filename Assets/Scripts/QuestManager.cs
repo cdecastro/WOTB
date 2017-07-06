@@ -6,6 +6,7 @@ public class QuestManager : MonoBehaviour {
 
 	public List<Quest> activeQuests = new List<Quest>();
 	private QuestDatabase database;
+	private bool isQuestActive = false;
 
 	// list of active quests
 	// add quest to list
@@ -15,19 +16,18 @@ public class QuestManager : MonoBehaviour {
 
 
 	void Start () {
+		database = GameObject.FindGameObjectWithTag("QuestDatabase").GetComponent<QuestDatabase>();
 		for (int i = 0; i < WizardSettings.questSize; i++) {
 			activeQuests.Add (new Quest());
 		}
-		database = GameObject.FindGameObjectWithTag("QuestDatabase").GetComponent<QuestDatabase>();
-
 	}
 
 	public void AddQuest(int id) {
 		//check if the quest is active
-		bool isQuestActive = false;
+		isQuestActive = false;
 		for (int k = 0; k < activeQuests.Count; k++) {
-			if (activeQuests [k].questID == id) {
-				isQuestActive = true;
+			if (activeQuests[k].questID == id) {
+					isQuestActive = true;
 			}
 		}
 		//if so, add the quest in the next availble slot
@@ -47,9 +47,9 @@ public class QuestManager : MonoBehaviour {
 
 	public void RemoveQuest(int id) {
 		for (int i = 0; i < activeQuests.Count; i++) {
-			if (activeQuests[i].questID == id) {
-				activeQuests[i] = null;
-			}
+			if (activeQuests [i].questID == id) {
+					activeQuests [i] = new Quest();
+			}			
 		}
 	}
 

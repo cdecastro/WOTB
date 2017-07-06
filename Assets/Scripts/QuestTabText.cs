@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class QuestTabText : MonoBehaviour {
 
-	public GameObject questTab;
+//	public GameObject questTab;
 	public Quest tabText;
 
 	void Start () {
@@ -17,8 +17,8 @@ public class QuestTabText : MonoBehaviour {
 	}
 
 	void LoadQuestText () {
-		tabText = questTab.GetComponent<QuestTab> ().tabQuest;
-		if (tabText.questDescription == null) {
+		tabText = GetComponentInParent<QuestTab> ().tabQuest;
+		if (tabText == null) {
 			gameObject.GetComponent<Text> ().text = "";
 		} else {
 			gameObject.GetComponent<Text> ().text = tabText.questDescription;
