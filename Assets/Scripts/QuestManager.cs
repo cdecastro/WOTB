@@ -53,4 +53,18 @@ public class QuestManager : MonoBehaviour {
 		}
 	}
 
+	//find wizard money
+	//check money
+	//confirm or insufficent dialogue box
+	//remove money
+
+	//find wizard inventory
+	//check inventory for item
+	//check inventory for room
+	//remove from inventory
+
+	//reward money
+	//reward item
+	//reward token
+
 }
