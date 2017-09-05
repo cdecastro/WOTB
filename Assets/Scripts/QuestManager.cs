@@ -53,10 +53,28 @@ public class QuestManager : MonoBehaviour {
 		}
 	}
 
-	//find wizard money
-	//check money
-	//confirm or insufficent dialogue box
-	//remove money
+	public void MoneyQuest(int pay) {
+		//find wizard money
+		int money = GetComponent<WizardSettings> ().moneyTotal;
+		//check money
+		if (pay <= money) {
+			//remove money
+			GetComponent<WizardSettings> ().moneyTotal -= pay;
+			// quest achieved
+		} else {
+			// not enough money dialogue
+		}
+	}
+
+//	IEnumerator ItemQuest (Item item) {
+//		List<Item> wizardInventory = GetComponent<Inventory>().inventory;
+//		for (int i = 0; i < wizardInventory.Count; i++) {
+//			if (wizardInventory[i] == item) {
+//				//
+//			}
+//		}
+//	}
+
 
 	//find wizard inventory
 	//check inventory for item
@@ -66,5 +84,7 @@ public class QuestManager : MonoBehaviour {
 	//reward money
 	//reward item
 	//reward token
+
+	//confirm or insufficent dialogue box
 
 }
